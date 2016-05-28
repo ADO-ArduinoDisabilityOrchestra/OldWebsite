@@ -284,7 +284,9 @@ html, body {
 
 
 
-
+.button.expand{
+    border-color: transparent;
+}
 
 
 
