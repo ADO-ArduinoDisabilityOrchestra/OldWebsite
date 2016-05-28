@@ -1227,9 +1227,9 @@ button, .button {
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: #83d3c9 ;
+    background-color: #251938; ;
       border: solid 0.5px;
-      border-color: black;
+      /*border-color: black;*/
     width: 100%; }
   button.left-align, .button.left-align {
     text-align: left;
