@@ -13,9 +13,15 @@ html, body {
 }
 .row.but{
   max-width: 25%;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
     background-size: 100%;
+}
+
+.intro{
+  text-align: center;
+  font-style: italic;
+  padding-top: 0px;
 }
 
 .oneone,
@@ -31,10 +37,10 @@ html, body {
 
 
 .row.fondo{
-   
+
     min-width: 100%;
     /*background-color: rgba(208,211,229,1);*/
-    background-color: rgba(131,211,201,0.8); 
+    background-color: rgba(131,211,201,0.8);
     min-height: 45%;
     margin-top: 5%;
     background-size: 100%;}
@@ -69,7 +75,7 @@ html, body {
   font-size: 0.7em;
 }
 .loghi{
- max-width: 5%; 
+ max-width: 5%;
 }
 #credit2{
   font-size: 0.7em;
@@ -77,7 +83,7 @@ html, body {
 }
 .loghi2{
     float: right;
- max-width: 5%; 
+ max-width: 5%;
 }
 #cont{
  text-align: center;
@@ -90,7 +96,7 @@ html, body {
 
 
 .row.trefoto{
- background-color: rgba(238,241,249,1);  
+ background-color: rgba(238,241,249,1);
     min-width: 100%;
     padding-left: 11%;
     padding-right: 11%;
@@ -104,12 +110,12 @@ html, body {
     width: 50%;
     height:29%;
     left:38%;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     overflow: auto;
     padding: 2%;
     font-family: 'robotoregular', Arial, Helvetica, sans-serif;
     color: rgba(0,0,0, 0.5);
-    
+
 }
 
 #leffa{
@@ -118,32 +124,32 @@ html, body {
     width: 72%;
     height:74%;
     left:26%;
-    background-color: rgba(238,241,249,1);  
+    background-color: rgba(238,241,249,1);
     overflow: auto;
     padding: 2%;
     font-family: 'robotoregular', Arial, Helvetica, sans-serif;
     color: rgba(0,0,0, 0.5);
-    
+
 }
 
-.row.one{  
-    background-color: rgba(238,241,249,1);  
+.row.one{
+    background-color: rgba(238,241,249,1);
     min-width: 100%;
     position: relative;
     border:0px;
     alt="Null";
     background-size: contain;
-} 
+}
 
 .gatto{
    position: relative;
     z-index: 0;
     width: 100%;
-    
+
 }
 .logo{
-    position: absolute; 
-    top: 5%; 
+    position: absolute;
+    top: 5%;
     left: 2%;
     height: auto;
     width: 100%;
@@ -152,13 +158,13 @@ html, body {
 
 
 .large-12.columns.claim{
-    
-    position: absolute; 
-    top: 60%; 
+
+    position: absolute;
+    top: 60%;
     left: 30%;
     width: 40%;
     border-radius: 0.2em;
-    
+
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -193,11 +199,11 @@ html, body {
                 }
 
 
-.view {    
-    float: left;   
+.view {
+    float: left;
     overflow: hidden;
     position: relative;
-    text-align: center; 
+    text-align: center;
 }
 
 .view .mask, .view .content {
@@ -211,12 +217,12 @@ html, body {
 }
 
 .view h2 {
-    
-    color: rgba(0,0,0,0.5); 
+
+    color: rgba(0,0,0,0.5);
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: 'robotoregular', Arial, Helvetica, sans-serif;  
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
     background: whitesmoke;
     margin-top: 35%;
     padding: 3%;
@@ -229,12 +235,12 @@ html, body {
     text-align: center
 }
 
-.view-first img { 
+.view-first img {
     transition: all 0.2s linear;
 }
 .view-first .mask {
     opacity: 0;
-    background-color: rgba(131,211,201,0.5); 
+    background-color: rgba(131,211,201,0.5);
     transition: all 0.4s ease-in-out;
 }
 .view-first h2 {
@@ -242,16 +248,16 @@ html, body {
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
-.view-first p { 
+.view-first p {
     transform: translateY(100px);
     opacity: 0;
 	transition: all 0.2s linear;
 }
 
-.view-first:hover img { 
+.view-first:hover img {
 	transform: scale(1.1);
-} 
-.view-first:hover .mask { 
+}
+.view-first:hover .mask {
 	opacity: 1;
 }
 .view-first:hover h2{
@@ -277,7 +283,7 @@ html, body {
 	font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
-   
+
     margin-bottom: 15px;
 }
 
@@ -298,14 +304,13 @@ html, body {
   .site-main .row{
     max-width: 330px;
     }
-    
+
 .suca{
- margin-bottom: 20px;  
+ margin-bottom: 20px;
         }
 
 .suca{
- padding-bottom: 10%; 
+ padding-bottom: 10%;
 }
 
 }
-
