@@ -1146,6 +1146,7 @@ select {
     right: 91.66667%;
     left: auto; } }
 button, .button {
+  width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
@@ -1162,7 +1163,7 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
+  background-color: #251938;
   /*border-color: #007095;*/
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
