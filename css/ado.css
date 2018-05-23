@@ -21,12 +21,11 @@ html, body {
 .intro{
   text-align: center;
   font-style: italic;
-  padding-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-.oneone,
-.twotwo,
-.threethree,
+
 .dream,
 .wanna,
 .play,
@@ -98,15 +97,20 @@ html, body {
 .row.trefoto{
  background-color: rgba(238,241,249,1);
     min-width: 100%;
-    padding-left: 11%;
-    padding-right: 11%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top:5%;
     padding-bottom: 5%;
 }
 
+.w1{
+padding-top: 30px;
+}
+
+
 #ioo{
     display: none;
-    position: absolute;
+
     width: 50%;
     height:29%;
     left:38%;
@@ -288,21 +292,31 @@ html, body {
 }
 
 
+.button {
+  background-color: #251938 !important;
+  padding: 1rem 2rem 1.0625rem 2rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  padding-bottom: 1.0625rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: solid 0.5px;
+    /*border-color: black;*/
+  width: 100%; }
 
-
-.button.know-more{
-    background-color: #251938;
 }
 
 
 
-
-
-
-
-
 /* small */
-@media (max-width: 400px) {
+@media (max-width: 800px) {
+
+  /*.intro{
+  font-size: px;
+  }*/
+
+
   .site-main .row{
     max-width: 330px;
     }
